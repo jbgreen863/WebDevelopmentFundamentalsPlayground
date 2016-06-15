@@ -3,9 +3,163 @@
 body{
 	font-family: Times;
 	background: green;
-	background-image:url("../img/Lambo2.jpg")
+	background-image:url("../img/Lambo.jpg");
 }
 
 .alt{
 	color:blue;
 }
+
+.dog{
+	color: orange;
+}
+
+.border{
+	border:5px solid black;
+}
+
+.border2{
+	border:5px double turquoise;
+}
+
+.nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0px 0px;
+	overflow:hidden;
+	background-color: #f7eee6;
+
+}
+
+.nav li{
+	float:left;
+}
+
+.nav li a{
+	display:inline-block;
+	color:blue;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color:#000;
+}
+
+#circle{
+  width:100px;
+  height:100px;
+  border:3px solid black;
+  border-radius:75px;
+  background-color:yellow;
+  position:absolute;
+  margin:20px 0px 0px 20px
+}
+
+#righteye{
+  width:16px;
+  height: 16px;
+  border: 3px solid black;
+  border-radius:10px;
+  background-color:white;
+  position:absolute;
+  margin:50px 0px 0px 75px
+}
+
+#lefteye{
+  width:16px;
+  height: 16px;
+  border: 3px solid black;
+  border-radius:10px;
+  background-color:white;
+  position:absolute;
+  margin:50px 0px 0px 50px
+}
+
+#mouth{
+  width:30px;
+  height: 16px;
+  border: 2px solid black;
+  border-radius:15px 15px 5px 5px;
+  background-color:black;
+  position:absolute;
+  margin:85px 0px 0px 57px
+}
+
+#innerrighteye{
+  width:7px;
+  height: 7px;
+  border: 1px solid black;
+  border-radius:10px;
+  background-color:green;
+  position:absolute;
+  margin:55px 0px 0px 80px
+}
+
+#innerlefteye{
+  width:7px;
+  height: 7px;
+  border: 1px solid black;
+  border-radius:10px;
+  background-color:green;
+  position:absolute;
+  margin:55px 0px 0px 55px;
+}
+
+#righteyebrow{
+  width:20px;
+  height: 1px;
+  border: 2px solid brown;
+  border-radius:15px 15px 5px 5px;
+  background-color:brown;
+  position:absolute;
+  margin: 40px 0px 0px 45px; 
+  ms-transform: rotate(-10deg);
+  webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+    
+#lefteyebrow{
+  width:20px;
+  height: 1px;
+  border: 2px solid brown;
+  border-radius:15px 15px 5px 5px;
+  background-color:brown;
+  position:absolute;
+  margin: 40px 0px 0px 77px;    
+  ms-transform: rotate(10deg);
+  webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.project-box-1{
+	height:300px;
+	background-color:silver;
+}
+
+.project-box-2{
+	height:300px;
+	background-color:gold;
+}
+
+.project-box-3{
+	height:300px;
+	background-color:green;
+}
+
+.project-box-4{
+	height:300px;
+	background-color:blue;
+}
+
+.project-box-5{
+	height:300px;
+	background-color:orange;
+}
+
+.project-box-6{
+	height:300px;
+	background-color:azure;
+}
+
