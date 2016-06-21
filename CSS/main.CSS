@@ -22,6 +22,9 @@ body{
 	border:5px double turquoise;
 }
 
+
+/*This is for the nav bar*/
+
 .nav ul{
 	list-style-type:none;
 	margin:0;
@@ -46,6 +49,9 @@ body{
 .nav li a:hover{
 	background-color:#000;
 }
+
+
+/*This is where the smiley face begins*/
 
 #circle{
   width:100px;
@@ -133,6 +139,8 @@ body{
   transform: rotate(10deg);
 }
 
+
+/*This is for the bootstrap*/
 .project-box-1{
 	height:300px;
 	background-color:silver;
@@ -163,3 +171,11 @@ body{
 	background-color:azure;
 }
 
+#my-age{
+  color:blue;
+}
+
+#text{
+  font-family: 'Poiret One', cursive;
+  font-weight:bold;
+}
