@@ -139,6 +139,94 @@ body{
   transform: rotate(10deg);
 }
 
+#circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: yellow;
+  position: absolute;
+  margin: 20px 0px 0px 20px;
+}
+
+#square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: red;
+  position: absolute;
+  margin: 20px 0px 0px 150px;
+}
+
+#square2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: green;
+  position: absolute;
+  margin: 20px 0px 0px 300px;
+  border-top: dashed blue;
+  border-right: dashed orange;
+  border-bottom: dashed yellow;
+  border-left: dashed red;
+}
+
+#trianglesquare {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 450px;
+  border-top: 50px solid blue;
+  border-right: 50px solid orange;
+  border-bottom: 50px solid yellow;
+  border-left: 50px solid red;
+}
+
+/*This is for the CSS shapes*/
+#triangle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 70px 0px 0px 600px;
+  border-top: 0px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid red;
+  border-left: 50px solid transparent;
+}
+
+#triangle2 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 750px;
+  border-top: 0px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+  border-left: 50px solid transparent;
+}
+
+#outertriangle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 900px;
+  border-top: 0px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid blue;
+  border-left: 50px solid transparent;
+}
+
+#innertriangle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 50px 0px 0px 925px;
+  border-top: 0px solid yellow;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+  border-left: 25px solid transparent;
+}
+
 
 /*This is for the bootstrap*/
 .project-box-1{
@@ -178,4 +266,13 @@ body{
 #text{
   font-family: 'Poiret One', cursive;
   font-weight:bold;
+}
+
+/*jQuery*/
+​
+#fadeInHelloWorld {
+  width:100px;
+  height:20px;
+  display:none;
+  background-color:red;
 }
